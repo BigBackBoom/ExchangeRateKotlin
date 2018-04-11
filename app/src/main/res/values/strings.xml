@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">ExchangeRateKotlin</string>
+    <string name="app_name">ExchangeRateApp</string>
+    <string name="conversion_screen_opener">Convert</string>
+    <string name="default_update_date_string">Please Press Button or Swipe Down to Refresh</string>
+    <string name="refresh_button_label">Refresh</string>
+    <string name="error_update_date_string">Error Please Refresh Again</string>
+    <string name="from">From:</string>
+    <string name="To">To:</string>
+    <string name="conversion_hint">Enter Conversion Amount...</string>
 </resources>

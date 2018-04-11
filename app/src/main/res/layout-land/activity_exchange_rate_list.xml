@@ -20,7 +20,7 @@
             android:id="@+id/exchange_rate_spinner"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.1"
+            android:layout_weight="0.2"
             android:spinnerMode="dropdown"/>
 
         <android.support.v4.widget.SwipeRefreshLayout
@@ -28,7 +28,7 @@
             android:id="@+id/refresh"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.70">
+            android:layout_weight="0.55">
 
             <ScrollView
                 android:id="@+id/scroll_list"
@@ -61,18 +61,18 @@
         </android.support.v4.widget.SwipeRefreshLayout>
 
         <!--<TextView-->
-            <!--android:id="@+id/update_date_text"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="0dp"-->
-            <!--android:layout_weight="0.050"-->
-            <!--android:textAlignment="center"-->
-            <!--android:gravity="center"-->
-            <!--android:text="@string/default_update_date_string"/>-->
+        <!--android:id="@+id/update_date_text"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="0.050"-->
+        <!--android:textAlignment="center"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/default_update_date_string"/>-->
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.10"
+            android:layout_weight="0.15"
             android:orientation="horizontal">
 
             <TextView
@@ -98,11 +98,9 @@
             android:id="@+id/convert_button"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.1"
+            android:layout_weight="0.2"
             android:enabled="false"
             android:text="@string/conversion_screen_opener"
             android:textSize="20sp" />
-
-
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
