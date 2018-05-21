@@ -12,6 +12,7 @@ class ExchangeRateList : AppCompatActivity() {
 
         Log.d("ExchangeRateList", "onCreate")
 
+        //added comment
         setContentView(R.layout.activity_exchange_rate_list)
     }
 
