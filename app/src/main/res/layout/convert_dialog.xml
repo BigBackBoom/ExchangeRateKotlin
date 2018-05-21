@@ -16,7 +16,7 @@
             android:id="@+id/conversion_amount"
             android:layout_width="281dp"
             android:layout_height="wrap_content"
-            android:ems="10"
+            android:ems="11"
             android:hint="@string/conversion_hint"
             android:inputType="numberDecimal"
             android:textAlignment="textEnd"
